@@ -1,0 +1,12 @@
+.paging span {font:italic normal 12px 'Open Sans', sans-serif; color:#666;}
+.paging a {margin-left:10px; border:1px solid #8b8c8c; box-shadow:1px 0px 2px #8b8c8c; -moz-box-shadow:1px 0px 2px #8b8c8c; -webkit-box-shadow:1px 0px 1px #8b8c8c; padding:2px 5px; color:#fff}
+.paging a:hover {color:#fff; border-color:#2fa0da; box-shadow:1px 0px 2px #2fa0da; -moz-box-shadow:1px 0px 2px #2fa0da; -webkit-box-shadow:1px 0px 1px #2fa0da;}
+.paging a .active{ color:#fff;}
+.doc_paging_prev{  }
+.doc_paging_prev_btn{ padding:2px 6px; border-radius:0px; background:#466f98; color:#fff;}
+.doc_paging_next{ }
+.doc_paging_next_btn{ padding:2px 6px; border-radius:0px; background:#466f98; color:#fff;}
+.doc_paging a {font:normal normal 15px 'Open Sans', sans-serif; text-decoration:none; background:#466f98; margin-left:1px; padding:0px 6px; color:#fff;}
+.doc_paging a:hover {color:#fff; text-decoration:none; background:#7396c4;}
+.doc_paging_hide{ font:normal normal 15px 'Open Sans', sans-serif; color:#fff; background:#7396c4; padding:0px 6px;}
+.doc_paging_prev_btn:hover,.doc_paging_prev_btn:active{color:#fff; text-decoration:none;}

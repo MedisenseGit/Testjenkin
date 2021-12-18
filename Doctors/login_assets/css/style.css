@@ -1,0 +1,92 @@
+body {
+    background: #fff url("../images/leapbg.jpg")  !important;
+
+
+    background-repeat:no-repeat;
+    min-height: 100%;
+    margin: 0;
+
+	background-attachment: fixed;
+    background-position: center bottom; 
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #404040;
+}
+.footer{text-align:center;margin-top:10px;    color: #ccc;}
+.footer a{    color: #ccc;
+}
+.partner{text-align: center;
+    color: #f9f9f9;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+	}
+.medisense.signin-main .form-wrap {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
+}
+.medisense.signin-main .form-header {
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-color: #fff;
+}
+.medisense.signin-main .form-main {
+  background-color: rgba(255, 244, 244, 1);
+  padding: 40px 50px;
+}
+.medisense.signin-main .form-footer {
+    background-color:#840a43;
+    padding: 20px 50px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.medisense.signin-main .signin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #9b8b93;
+    color: #fff;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+.medisense .btn {
+    border-radius: 0;
+}
+.medisense.signin-main .form-footer .fa-unlock-alt {
+    font-size: 10pt;
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgba(203, 133, 168, 0.55);
+    padding: 5px 8px;
+    margin-right: 7px;
+}
+.medisense.signin-main .form-footer a {
+    color: #fff;
+    font-size: 10pt;
+}
+.medisense.signin-main .form-footer .fa-check {
+    font-size: 10pt;
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgba(203, 133, 168, 0.55);
+    padding: 5px;
+    margin-right: 7px;
+}
+.medisense.signin-main input[type="text"], .medisense.signin-main input[type="password"] {
+  background-color: #fff;
+  padding-left: 20px;
+  border-radius: 0;
+  border: none;
+  margin-bottom: 10px;
+  color: #ccc;
+  height: 43px;
+}

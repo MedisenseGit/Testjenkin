@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+Options Indexes FollowSymLinks
+RewriteEngine on
+
+RewriteRule (RefLink)$ send_refLink.php [QSA,NC,L]
+
+</IfModule>
+
+
+
+
+

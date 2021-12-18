@@ -1,0 +1,1052 @@
+/* -------------------------------------------------------------- Box Product -------------------------------------------------------------- */
+
+.back-btn{font-size: 13px;
+    line-height: 32px;
+    padding: 5px 10px;
+  
+	    background-color: #16a0dc;
+   
+
+    box-sizing: content-box;-webkit-font-smoothing: antialiased;
+    font-weight: bold;
+   
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+	color:#fff;} 
+	.back-btn:hover{border:0px;
+	color:#fff;
+	background-color: #f1852f;
+	}
+.moving-left-menu {
+  
+    width: 25%;
+	
+}
+.pad-left-0{padding-left:0px;}
+.icon-pos{position: relative;
+    top: 3px;}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 0px; 
+    border-bottom-left-radius: 0px;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+    border-top-right-radius: 0px; 
+     border-bottom-right-radius: 0px; 
+}
+
+.ft-size{font-size:11px;}
+.icon-20{font-size:20px !important;}
+.pagination{margin:0px;}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #16a0dc;
+    border-color: #16a0dc;
+}
+.no-padding{padding-right:0px;
+padding-left:0px;}
+.pagination>li>a, .pagination>li>span {
+	color: #16a0dc;
+}
+.dc-list{background:#fff;
+margin-top:10px;
+    border: 1px solid #e0e0e0;
+	padding:10px;}
+	.profile{background:#fff;
+
+    border: 1px solid #e0e0e0;
+	padding:10px;}
+	.dc-list .thumbnail, .profile .thumbnail{margin-bottom:0px;
+	border-radius:0px;}
+.dc-list h2,.profile h2 {
+    color: #16a0dc;
+    font-size: 18px;
+	font-weight:800;
+    margin: 0 0 6px 0px;
+    line-height: 22px;
+}
+
+.dc-list p,.profile p{    line-height: 1.0;font-size:14px;
+color:#1d2129;}
+.dc-list p span,.profile p span{line-height: 1.4;}
+.btn-doc{width:161px; padding:0 10px  !important}
+.btn-orange{background:#f1852f;}
+.dc-list .label,.profile .label{font-size:100%;background:#5d5d5d;}
+.dc-list .label-warning, .profile .label-warning {background:#5d5d5d;}
+.fa-s{    font-size: 20px;}
+.rating i {
+    color: #16a0dc;
+    margin-bottom: 10px;
+}
+.list{margin-bottom:10px;}
+.list .nav-tabs {
+    border-bottom: 0px;
+}.nav-tabs>li>a {
+   font-weight:800;
+	font-size:16px;
+    background: #fff;
+
+   cursor:pointer;
+    text-align: center;
+    height: 45px;
+    color: #2f2f2f;
+	border-radius:0px;
+	border:1px solid #e0e0e0;
+	text-transform:uppercase;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+border-bottom:4px solid #f1852f;
+    font-weight:800;
+	font-size:16px;
+    background: #fff;
+
+   cursor:pointer;
+    text-align: center;
+    height: 45px;
+    color: #2f2f2f;
+	border-radius:0px;}
+/* -------------------------------------------------------------- End of Box Product -------------------------------------------------------------- */
+
+.checkbox-btn,
+.radio-btn {
+    position: relative;
+    padding-left: 20px;
+	margin-bottom:3px;
+}
+.checkbox-btn input[type="checkbox"],
+.checkbox-btn input[type="radio"],
+.radio-btn input[type="checkbox"],
+.radio-btn input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    z-index: 1
+}
+.checkbox-btn label,
+.radio-btn label {
+    display: inline-block;
+    line-height: 15px;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 7px;
+    cursor: pointer;
+    user-select: none;
+    color: #1d2129
+}
+.checkbox-btn label::after,
+.radio-btn label::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    left: 0;
+    top: 0;
+    margin-left: -18px;
+    background-color: white;
+    border: 1px solid #424242;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    cursor: pointer;
+	border-radius:0px;
+}
+.checkbox-btn label::before,
+.radio-btn label::before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 5px;
+    top: 3px;
+    left: 3px;
+    margin-left: -18px;
+    border: 1px solid #000;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    z-index: 1
+}
+.checkbox-btn label:active::before,
+.radio-btn label:active::before {
+    opacity: 0.3
+}
+.checkbox-btn input[type="checkbox"]:checked+label,
+.checkbox-btn input[type="radio"]:checked+label,
+.radio-btn input[type="checkbox"]:checked+label,
+.radio-btn input[type="radio"]:checked+label {
+    color: #000
+}
+.checkbox-btn input[type="checkbox"]:checked+label::after,
+.checkbox-btn input[type="radio"]:checked+label::after,
+.radio-btn input[type="checkbox"]:checked+label::after,
+.radio-btn input[type="radio"]:checked+label::after {
+    border: 1px solid #000;
+	border-radius:0px;
+}
+.checkbox-btn input[type="checkbox"]:checked+label::before,
+.checkbox-btn input[type="radio"]:checked+label::before,
+.radio-btn input[type="checkbox"]:checked+label::before,
+.radio-btn input[type="radio"]:checked+label::before {
+    opacity: 1
+}
+.checkbox-btn input[type="checkbox"]:disabled+label,
+.checkbox-btn input[type="radio"]:disabled+label,
+.radio-btn input[type="checkbox"]:disabled+label,
+.radio-btn input[type="radio"]:disabled+label {
+    color: #787878;
+    cursor: default
+}
+.checkbox-btn input[type="checkbox"]:disabled+label::after,
+.checkbox-btn input[type="radio"]:disabled+label::after,
+.radio-btn input[type="checkbox"]:disabled+label::after,
+.radio-btn input[type="radio"]:disabled+label::after {
+    border: 3px solid #787878;
+    background-color: #ffffff
+}
+.checkbox-btn input[type="checkbox"]:disabled+label::before,
+.checkbox-btn input[type="radio"]:disabled+label::before,
+.radio-btn input[type="checkbox"]:disabled+label::before,
+.radio-btn input[type="radio"]:disabled+label::before {
+    display: none
+}
+.radio-btn label::after {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-clip: padding-box
+}
+.radio-btn label::before {
+    width: 12px;
+    height: 12px;
+    border: none;
+    top: 6px;
+    left: 6px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-clip: padding-box;
+    background-color: #000000;
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg)
+}
+/*# sourceMappingURL=checkbox.css.map */
+.cat-heading {
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+ .sticky-header{visibility: visible;
+ opacity:100;
+ position:fixed;}
+ .filter{font-weight:900; font-size:14px; margin-top:10px;}
+ .delist{    background: #fff;
+    border:1px solid #e0e0e0;
+    padding: 10px;
+	margin-bottom:10px;
+}
+#state,#special,#doc{height:250px;}
+
+@media(min-width:590px) and (max-width:767px) {
+	 .hidden-stb {
+        display: none!important
+    }
+    .visible-stb {
+        display: block!important
+    }
+}
+
+
+.marL5{font-size: 17px;
+    margin-left: 7px;}
+
+	
+
+.help {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+
+}
+.help-txt,.allcontent,.shortcontent{font-size:14px;
+line-height:1.6;
+margin-bottom:15px;}
+.morelink {
+    padding: 7px 10px;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+   
+ 
+
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.pad-10{padding-left:10px;}
+.opinion{text-decoration:underline;
+}
+.info{padding-left:5px;
+color:#000;display:inline;    position: absolute;    padding-top: 9px;}
+.info i{font-size:1.3em;color:#5d5d5d}
+.confu_ad{font-size:20px;
+
+font-weight:bold;
+color:#f1852f;
+
+text-align:center;}
+.adover{
+
+    display:none;
+	width: 150px;
+    background: #5d5d5d;
+   z-index:1;
+    padding: 5px;
+    color: #fff;
+    position: relative;
+    left: 22px;
+    top: -19px;
+  
+    
+}
+.adover:after{
+    content:'';
+ 
+    
+   
+   
+   
+    margin-left:-10px;
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    transform:rotate(45deg);
+}
+
+.info:hover span{
+    display:block;
+}
+.padd-left{padding-left:0;}
+@media (min-width:320px) and (max-width:981px) {
+	
+	.padd-left{padding-left:15px;}
+	.margin-top-10{margin-top:10px;}
+}
+.profile-sum,.feed{
+	margin-top: 15px;
+    }
+	.feed{border-bottom:1px solid #e0e0e0;}
+	.profile-sum p,.feed p{line-height: 1.6;
+    /*padding: 10px;*/}
+	.nav-tabs{border-bottom:0px;}
+	
+	 .medisene-form .label {
+  
+    margin-bottom: 6px;
+    line-height: 19px;
+    font-weight: 400;
+    color:#000;
+    padding-left:0px;
+    font-size:14px;
+    
+ 
+}
+.medisene-form .label.col {
+    margin: 0;
+    padding-top: 10px
+}
+ 
+.medisene-form .input,
+.medisene-form .select,
+.medisene-form .textarea,
+.medisene-form .radio,
+.medisene-form .checkbox,
+.medisene-form .toggle,
+.medisene-form .button {
+    position: relative;
+    display: block
+}
+.medisene-form .radio-inline{
+    display:inline;
+    
+    
+}
+.medisene-form .input-captcha img {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border-left: 1px solid #ccc
+}
+.medisene-form .input-file .button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    float: none;
+    height: 31px;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 13px;
+    line-height: 31px
+}
+.medisene-form .input-file .button:hover {
+    box-shadow: none
+}
+.medisene-form .input-file .button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0
+}
+.medisene-form .select i {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 8px;
+    height: 11px;
+    background: #fff;
+    box-shadow: 0 0 0 12px #fff;
+    pointer-events: none
+}
+.medisene-form .select i:after,
+.medisene-form .select i:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+}
+.medisene-form .select i:after {
+    bottom: 0;
+    border-top: 4px solid #404040;
+}
+.medisene-form .select i:before {
+    top: 0;
+    border-bottom: 4px solid #404040
+}
+.medisene-form .select-multiple select {
+    height: auto
+}
+.medisene-form .textarea textarea {
+    width:100%;
+    background:#F5F5F5;
+    height: auto;
+    resize: none;
+ 
+}
+.medisene-form .textarea-resizable textarea {
+    resize: vertical
+}
+.medisene-form .textarea-expandable textarea {
+    height: 39px
+}
+.medisene-form .textarea-expandable textarea:focus {
+    height: auto
+}
+.medisene-form .radio:last-child,
+.medisene-form .checkbox:last-child {
+    margin-bottom: 0
+}
+.medisene-form .radio input,
+.medisene-form .checkbox input {
+    position: absolute;
+    left: -9999px
+}
+.medisene-form .radio,
+.medisene-form .checkbox {
+    margin-bottom: 4px;
+    padding-left: 27px;
+    font-size: 15px;
+    line-height: 27px;
+    color: #333;
+    cursor: pointer
+}
+.medisene-form .radio i,
+.medisene-form .checkbox i {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: block;
+    width: 13px;
+    height: 13px;
+    outline: none;
+    border-width: 2px;
+    border-style: solid;
+    background: #fff
+}
+.medisene-form .radio i {
+    border-radius: 50%
+}
+.medisene-form .radio input+i:after,
+.medisene-form .checkbox input+i:after {
+    position: absolute;
+    opacity: 0;
+    -ms-transition: opacity .1s;
+    -moz-transition: opacity .1s;
+    -webkit-transition: opacity .1s
+}
+.medisene-form .radio input+i:after {
+    content: '';
+    top: 2px;
+    left: 2px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%
+}
+.medisene-form .checkbox input+i:after {
+    content: '\f00c';
+    top: -1px;
+    left: -1px;
+    width: 15px;
+    height: 15px;
+    font: normal 12px/16px FontAwesome;
+    text-align: center
+}
+.medisene-form .radio input:checked+i:after,
+.medisene-form .checkbox input:checked+i:after {
+    opacity: 1
+}
+.medisene-form .inline-group {
+    margin: 0 -30px -4px 0
+}
+.medisene-form .inline-group:after {
+    content: '';
+    display: table;
+    clear: both
+}
+.medisene-form .inline-group .radio,
+.medisene-form .inline-group .checkbox {
+    float: left;
+    margin-right: 30px
+}
+.medisene-form .inline-group .radio:last-child,
+.medisene-form .inline-group .checkbox:last-child {
+    margin-bottom: 4px
+}
+.medisene-form .toggle {
+    margin-bottom: 4px;
+    padding-right: 61px;
+    font-size: 15px;
+    line-height: 27px;
+    color: #404040;
+    cursor: pointer
+}
+.medisene-form .toggle:last-child {
+    margin-bottom: 0
+}
+.medisene-form .toggle input {
+    position: absolute;
+    left: -9999px
+}
+.medisene-form .toggle i {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: 0;
+    display: block;
+    width: 49px;
+    height: 17px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 12px;
+    background: #fff
+}
+.medisene-form .toggle i:after {
+    content: 'OFF';
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    left: 8px;
+    font-style: normal;
+    font-size: 9px;
+    line-height: 13px;
+    font-weight: 700;
+    text-align: left;
+    color: #5f5f5f
+}
+.medisene-form .toggle i:before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 4px;
+    right: 4px;
+    display: block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    opacity: 1;
+    -ms-transition: right .2s;
+    -moz-transition: right .2s;
+    -webkit-transition: right .2s
+}
+.medisene-form .toggle input:checked+i:after {
+    content: 'ON';
+    text-align: right
+}
+.medisene-form .toggle input:checked+i:before {
+    right: 36px
+}
+ 
+.medisene-form .icon-append,
+.medisene-form .icon-prepend {
+    position: absolute;
+    top: 5px;
+width:120px;
+    height: 29px;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center
+}
+.medisene-form .icon-append {
+    left: 0px;
+    padding-left: 5px;
+  
+}
+.medisene-form .icon-append1 {
+    position: absolute;
+    top: 5px;
+  
+    height: 29px;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center
+}
+.medisene-form .icon-append1 {
+    left: 5px;
+    padding-left: 3px;
+    border-right-width: 1px;
+    border-right-style: solid
+}
+ 
+ 
+.medisene-form .icon-prepend {
+    left: 5px;
+    padding-right: 3px;
+ /*   border-right-width: 1px;
+    border-right-style: solid*/
+}
+.medisene-form .input .icon-prepend+input,
+.medisene-form .textarea .icon-prepend+textarea {
+    padding-left: 120px
+}
+.medisene-form .input .icon-append+input,
+.medisene-form .textarea .icon-append+textarea {
+    padding-right: 46px
+}
+.medisene-form .input .icon-prepend+.icon-append+input,
+.medisene-form .textarea .icon-prepend+.icon-append+textarea {
+    padding-left: 46px
+}
+.medisene-form .tooltip {
+    position: absolute;
+    z-index: 1;
+    left: -9999px;
+    padding: 2px 8px 3px;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    opacity: 0;
+    -ms-transition: margin .3s, opacity .3s;
+    -moz-transition: margin .3s, opacity .3s;
+    -webkit-transition: margin .3s, opacity .3s
+}
+.medisene-form .tooltip:after {
+    content: '';
+    position: absolute
+}
+.medisene-form .input input:focus+.tooltip,
+.medisene-form .textarea textarea:focus+.tooltip {
+    opacity: 1
+}
+.medisene-form .tooltip-top-right {
+    bottom: 100%;
+    margin-bottom: 15px
+}
+.medisene-form .tooltip-top-right:after {
+    top: 100%;
+    right: 16px;
+    border-top: 4px solid rgba(0, 0, 0, 0.9);
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+}
+.medisene-form .input input:focus+.tooltip-top-right,
+.medisene-form .textarea textarea:focus+.tooltip-top-right {
+    right: 0;
+    left: auto;
+    margin-bottom: 5px
+}
+.medisene-form .tooltip-top-left {
+    bottom: 100%;
+    margin-bottom: 15px
+}
+.medisene-form .tooltip-top-left:after {
+    top: 100%;
+    left: 16px;
+    border-top: 4px solid rgba(0, 0, 0, 0.9);
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+}
+.medisene-form .input input:focus+.tooltip-top-left,
+.medisene-form .textarea textarea:focus+.tooltip-top-left {
+    right: auto;
+    left: 0;
+    margin-bottom: 5px
+}
+.medisene-form .tooltip-right {
+    top: 9px;
+    white-space: nowrap;
+    margin-left: 15px
+}
+.medisene-form .tooltip-right:after {
+    top: 6px;
+    right: 100%;
+    border-top: 4px solid transparent;
+    border-right: 4px solid rgba(0, 0, 0, 0.9);
+    border-bottom: 4px solid transparent
+}
+.medisene-form .input input:focus+.tooltip-right,
+.medisene-form .textarea textarea:focus+.tooltip-right {
+    left: 100%;
+    margin-left: 5px
+}
+.medisene-form .tooltip-left {
+    top: 9px;
+    white-space: nowrap;
+    margin-right: 15px
+}
+.medisene-form .tooltip-left:after {
+    top: 6px;
+    left: 100%;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid rgba(0, 0, 0, 0.9)
+}
+.medisene-form .input input:focus+.tooltip-left,
+.medisene-form .textarea textarea:focus+.tooltip-left {
+    right: 100%;
+    left: auto;
+    margin-right: 5px
+}
+.medisene-form .tooltip-bottom-right {
+    top: 100%;
+    margin-top: 15px
+}
+.medisene-form .tooltip-bottom-right:after {
+    bottom: 100%;
+    right: 16px;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.9);
+    border-left: 4px solid transparent
+}
+.medisene-form .input input:focus+.tooltip-bottom-right,
+.medisene-form .textarea textarea:focus+.tooltip-bottom-right {
+    right: 0;
+    left: auto;
+    margin-top: 5px
+}
+.medisene-form .tooltip-bottom-left {
+    top: 100%;
+    margin-top: 15px
+}
+.medisene-form .tooltip-bottom-left:after {
+    bottom: 100%;
+    left: 16px;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.9);
+    border-left: 4px solid transparent
+}
+.medisene-form .input input:focus+.tooltip-bottom-left,
+.medisene-form .textarea textarea:focus+.tooltip-bottom-left {
+    right: auto;
+    left: 0;
+    margin-top: 5px
+}
+.medisene-form .rating label {
+    color: #ccc;
+    -ms-transition: color .3s;
+    -moz-transition: color .3s;
+    -webkit-transition: color .3s
+}
+.medisene-form .button {
+    background-color: #f1c40f;
+    opacity: .8;
+    -ms-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -webkit-transition: opacity .2s
+}
+.medisene-form .button.button-secondary {
+    background-color: #b3b3b3
+}
+.medisene-form .icon-append,
+.medisene-form .icon-append1,
+.medisene-form .icon-prepend {
+    color: #1d2129;
+}
+.medisene-form .input:hover input,
+.medisene-form .select:hover select,
+.medisene-form .textarea:hover textarea,
+.medisene-form .radio:hover i,
+.medisene-form .checkbox:hover i,
+.medisene-form .toggle:hover i,
+.medisene-form .ui-slider-handle:hover {
+    border-color: #8dc9e5
+}
+.medisene-form .button:hover {
+    opacity: 1
+}
+.medisene-form .state-error input,
+.medisene-form .state-error select,
+.medisene-form .state-error textarea,
+.medisene-form .radio.state-error i,
+.medisene-form .checkbox.state-error i,
+.medisene-form .toggle.state-error i {
+    background: #fff0f0
+}
+.medisene-form .state-error select+i {
+    background: #fff0f0;
+    box-shadow: 0 0 0 12px #fff0f0
+}
+.medisene-form .toggle.state-error input:checked+i {
+    background: #fff0f0
+}
+.medisene-form .state-error+em {
+    display: block;
+    margin-top: 6px;
+    padding: 0 1px;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ee9393
+}
+.medisene-form .rating.state-error+em {
+    margin-top: -4px;
+    margin-bottom: 4px
+}
+.medisene-form section {
+    margin-bottom: 20px;
+}
+.medisene-form .state-success input,
+.medisene-form .state-success select,
+.medisene-form .state-success textarea,
+.medisene-form .radio.state-success i,
+.medisene-form .checkbox.state-success i,
+.medisene-form .toggle.state-success i {
+    background: #f0fff0
+}
+.medisene-form .state-success select+i {
+    background: #f0fff0;
+    box-shadow: 0 0 0 12px #f0fff0
+}
+.medisene-form .toggle.state-success input:checked+i {
+    background: #f0fff0
+}
+.medisene-form .state-success+em {
+    display: block;
+    margin-top: 6px;
+    padding: 0 1px;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ee9393
+}
+.medisene-form .note-success {
+    color: #6fb679
+}
+.medisene-form .input.state-disabled input,
+.medisene-form .select.state-disabled,
+.medisene-form .textarea.state-disabled,
+.medisene-form .radio.state-disabled,
+.medisene-form .checkbox.state-disabled,
+.medisene-form .toggle.state-disabled,
+.medisene-form .button.state-disabled {
+    cursor: default;
+    opacity: .5
+}
+.medisene-form .input.state-disabled:hover input,
+.medisene-form .select.state-disabled:hover select,
+.medisene-form .textarea.state-disabled:hover textarea,
+.medisene-form .radio.state-disabled:hover i,
+.medisene-form .checkbox.state-disabled:hover i,
+.medisene-form .toggle.state-disabled:hover i {
+    border-color: #ccc
+}
+.medisene-form .message {
+    display: none;
+    color: #6fb679
+}
+.medisene-form .message i {
+    display: block;
+    margin: 0 auto 20px;
+    width: 81px;
+    height: 81px;
+    border: 1px solid #6fb679;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 81px
+}
+.medisene-form.submited fieldset,
+.medisene-form.submited footer {
+    display: none
+}
+.medisene-form.submited .message {
+    display: block;
+    padding: 25px 30px;
+    background: rgba(255, 255, 255, 0.9);
+    font: 300 18px/27px 'Open Sans', Helvetica, Arial, sans-serif;
+    text-align: center
+}
+.wp-block.user-form {
+    border: 1px solid;
+    border-color: #e0eded;
+    background: #fff;
+}
+.medisene-form a {
+    color: #3498db
+}
+.medisene-form .input input,
+.medisene-form .select select{
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    height: 39px;
+    padding: 8px 10px;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    background:#f8f8f8;
+    appearance: normal;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    font-size:14px;
+    
+}
+.medisene-form .select1 select{
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    height: 39px;
+    padding: 8px 10px;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0px;
+    background: #F5F5F5;
+    appearance: normal;
+    -moz-appearance: none;
+    -webkit-appearance: none
+}
+.medisene-form .input input,
+.medisene-form .select select,
+.medisene-form .textarea textarea,
+.medisene-form .radio i,
+.medisene-form .checkbox i,
+.medisene-form .toggle i,
+.medisene-form .icon-append,
+.medisene-form .icon-append1,
+.medisene-form .icon-prepend {
+    border-color: #ccc;
+    -ms-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    -webkit-transition: border-color .3s
+}
+.medisene-form .toggle i:before {
+    background-color: #3498db
+}
+.medisene-form .rating input+label:hover,
+.medisene-form .rating input+label:hover~label {
+    color: #3498db
+}
+.medisene-form .radio,
+.medisene-form .checkbox {
+    margin-bottom: 4px;
+    padding-left: 27px;
+    font-size: 15px;
+   /* line-height: 45px;*/
+    color: #333;
+    cursor: pointer
+}
+.medisene-form .input input:focus,
+.medisene-form .select select:focus,
+.medisene-form .textarea textarea:focus,
+.medisene-form .radio input:focus+i,
+.medisene-form .checkbox input:focus+i,
+.medisene-form .toggle input:focus+i {
+    border-color: #3498db
+}
+.medisene-form .radio input+i:after {
+    background-color: #3498db
+}
+.medisene-form .checkbox input+i:after {
+    color: #3498db;
+    position: absolute;
+   top: -2px;
+    left: -2px;
+}
+.medisene-form .radio input:checked+i,
+.medisene-form .checkbox input:checked+i,
+.medisene-form .toggle input:checked+i {
+    border-color: #3498db
+}
+.medisene-form .rating input:checked~label {
+    color: #3498db
+}
+.ui-datepicker-inline {
+    border: 2px solid #ccc;
+    background: #fff;
+    box-shadow: none
+}
+.medisene-form .ui-slider {
+    position: relative;
+    height: 3px;
+    border: 2px solid #ccc;
+    background: #fff;
+    margin: 12px 6px 26px
+}
+.medisene-form .ui-slider-handle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin: -8px 0 0 -8px;
+    border: 2px solid #ccc;
+    outline: none;
+    background: #fff;
+    -ms-transition: border-color .3s;
+    -moz-transition: border-color .3s;
+    -webkit-transition: border-color .3s
+}
+ .btn-form{font-size:16px !important;
+ line-height:50px;}
+ @media (min-width:320px) and (max-width:1025px) {
+	.medisene-form .radio input+i:after {
+    content: '';
+    top: 2px;
+    left: 2px;
+	}
+ }
+ 
+ .add_button{ position: absolute;
+    left: 200px;
+    top: 9px;
+    /* margin-left: 270px; */
+    vertical-align: text-top;}
+  }
+ 

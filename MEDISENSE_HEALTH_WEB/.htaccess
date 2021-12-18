@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+Options Indexes FollowSymLinks
+RewriteEngine on
+
+
+RewriteRule (PATIENT_ATTACHMENTS)$ patient_attachment.php [QSA,NC,L]
+
+</IfModule>
+
+
+
+
+

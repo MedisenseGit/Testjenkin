@@ -1,0 +1,193 @@
+html, body {
+height: 100%;
+}
+
+#login{    background: #fff url("../images/img1.png") !important;
+    background-repeat:repeat;
+    
+    margin: 0;
+
+	
+	}
+	#login .login-logo{}
+#login .login-form{
+	    width:750px;
+	max-width: 100%;
+    margin: 0 auto;
+  background:#fff;
+    border: 1px solid;
+    border-color: #e0e0e0;
+
+
+ overflow:hidden; 
+ border-radius:0px}
+ #login .login{padding:15px;}
+ #login  .padding-bottom-8  {
+    padding-bottom: 8px;
+}
+#login  .margin-top-5{
+      margin-top: 2%;
+}
+
+#login  .padding-top-8{ padding-top: 8px;}
+ #login  .padding-top-20 {
+    padding-top: 20px;
+}
+ #login  .padding-btm-20 {
+    padding-bottom: 20px;
+}
+ #login .font-12 {
+    font-size: 12px;
+}
+#login .form-control{height:36px;
+border-radius:0px;}
+#login .form-header label{display:block; cursor:pointer; z-index:999}
+#login .form-header li{margin:0; line-height:60px;width:50%; text-align:center; background:#fff; font-size:18px; float:left; transition:all 600ms ease}
+#login .nav-tabs>li>a {
+  font-weight: 800;
+    font-size: 16px;
+    background: #fff;
+    cursor: pointer;
+    text-align: center;
+    height: 45px;
+    color: #2f2f2f;
+    border-radius: 0px;
+    border: 1px solid #e0e0e0;
+    text-transform: uppercase;
+}
+#login .nav-tabs>li.active>a,
+ #login .nav-tabs>li.active>a:focus, 
+ #login .nav-tabs>li.active>a:hover{
+	border-bottom: 4px solid #f1852f;
+    font-weight: 800;
+    font-size: 16px;
+    background: #fff;
+    cursor: pointer;
+    text-align: center;
+    height: 45px;
+    color: #2f2f2f;
+    border-radius: 0px; 
+ }
+
+#login .social-login{padding:15px 20px;
+
+}
+ #login .social-login p{font-size:1.2em;}
+#login .social-login a{display:inline-block; 
+font-family:Arial;
+text-align:center; 
+line-height:44px;
+margin:0 3px;
+ text-decoration:none; 
+ color:#FFFFFF;
+ font-size:1.5em;
+ font-weight:bold;
+ }
+ 
+#login .form a i.fa{line-height:35px;}
+#login .social-login ul{list-style:none; padding:0;}
+#login .social-login .fb{margin-top: 0;
+    display: block;
+    width: 100%;
+    background: #3B5998;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;}
+#login .social-login .tw{margin-top: 3%;
+    width: 100%;
+    background: #45B0E3;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;}
+#login .social-login .gp{margin-top: 3%;
+    width: 40%;
+    background: #DE4C34;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;}
+
+#login .social-login .in{
+	margin-top: 3%;
+    width: 100%;
+    background: #0f89c3;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+	}
+#login .tab-content{background:rgba(255,255,255,0.9);}
+#login .remember {
+    width: 50%;
+    display: inline-block;
+    clear: both;
+    font-size: 14px;
+}
+#login .remember:nth-child(2) {
+    text-align: right;
+}
+#login .no-paddingrt{padding-right:0px;
+}
+#login .no-paddinglt{
+padding-left:0px;
+}
+#login textarea{max-width:100%;min-width:100%;}
+#login .nav-tabs{border-bottom:0px;    }
+
+  .main-footer{
+	padding:15px 0;
+	border-top:1px solid #eee;
+	background:#fff;
+	clear:both;
+}
+
+#login .social-login .tw  i {
+	background: #40A2D1;
+    padding: 7px;
+    float: left;
+	    width: 18%;
+    line-height: 30px;
+	font-size:1.3em;
+}
+#login .social-login .fb  i {
+	background: #354F88;
+    padding: 7px;
+    float: left;
+	    width: 18%;
+    line-height: 30px;
+	font-size:1.3em;
+}
+#login .social-login .gp  i {
+	background: #CE3E26;
+    padding: 7px;
+    float: left;
+	width: 28%;
+    line-height: 30px;
+	font-size:1.3em;
+	font-weight:bold;
+}
+#login .social-login .in  i {
+	background: #0e76a8;
+    padding: 7px;
+    float: left;
+	    width: 18%;
+    line-height: 30px;
+	font-size:1.3em;
+}
+#login .social-login .tw span , #login .social-login .fb span,#login .social-login .gp span,#login .social-login .in span{
+    font-size: 1.3em;
+   
+}
+#login .login-img{margin:0 auto;}
+.btn-register{background:#ef8c2f !important; margin-top:3%;}
+.forpass{display:none;}
+
+.d_visible{display:block ;}
+
+.login-frm1{display:none ;}

@@ -1,0 +1,62 @@
+<IfModule mod_rewrite.c>
+Options Indexes FollowSymLinks
+RewriteEngine on
+
+
+RewriteRule (login)$ login.php [QSA,NC,L]
+RewriteRule (register)$ register.php [QSA,NC,L]
+RewriteRule (forgot)$ forgot.php [QSA,NC,L]
+RewriteRule (Home)$ home.php [QSA,NC,L]
+RewriteRule (Favorites)$ favorite_list.php [QSA,NC,L]
+RewriteRule (My-Connections)$ my_connections.php [QSA,NC,L]
+RewriteRule (Doctor-Profile)$ doc_profile.php [QSA,NC,L]
+RewriteRule (Appointments)$ my_appointments_direct.php [QSA,NC,L]
+RewriteRule (Appointments-Other)$ my_appointments.php [QSA,NC,L]
+RewriteRule (Cases-Recieved)$ cases_recieved.php [QSA,NC,L]
+RewriteRule (Profile)$ user_profile.php [QSA,NC,L]
+RewriteRule (Set-Appointment)$ user_profile_appointment.php [QSA,NC,L]
+RewriteRule (Password)$ user_profile_password.php [QSA,NC,L]
+RewriteRule (Blogs)$ blogs.php [QSA,NC,L]
+RewriteRule (Offers)$ offers.php [QSA,NC,L]
+RewriteRule (Doctor-Inout-Referrals)$ doc_inout_referrals.php [QSA,NC,L]
+RewriteRule (Refer-Out-Doctor)$ refer_out_doctor.php [QSA,NC,L]
+RewriteRule (patient-history)$ patient_history.php [QSA,NC,L]
+RewriteRule (My-Patients)$ my_patient.php [QSA,NC,L]
+RewriteRule (Drug-Reports)$ drug_reports.php [QSA,NC,L]
+RewriteRule (My-Patient-Details)$ my_patient_profile.php [QSA,NC,L]
+RewriteRule (Quick-Prescription)$ quick_prescription.php [QSA,NC,L]
+RewriteRule (My-Appointment-Patient-Details)$ my_appointment_patient_detail.php [QSA,NC,L]
+RewriteRule (Patient-Profile)$ my_patient_profile.php [QSA,NC,L]
+RewriteRule (Blog-Surgical-List)$ blog_surgical_list.php [QSA,NC,L]
+RewriteRule (Add-Blog)$ add_blogs.php [QSA,NC,L]
+RewriteRule (Add-Surgical-Video)$ add_surgical_video.php [QSA,NC,L]
+RewriteRule (Payments)$ payments.php [QSA,NC,L]
+RewriteRule (Patient-Attachments)$ patient_episode_attachments.php [QSA,NC,L]
+RewriteRule (Diagnostic-Refer)$ diagnostic_ref_link.php [QSA,NC,L]
+RewriteRule (Pharma-Refer)$ pharma_ref_link.php [QSA,NC,L]
+RewriteRule (Add-Diagnostics)$ add_diagnostics.php [QSA,NC,L]
+RewriteRule (Add-Pharmacy)$ add_pharmacy.php [QSA,NC,L]
+RewriteRule (Add-Opticals)$ add_opticals.php [QSA,NC,L]
+RewriteRule (Add-Receptionist)$ add_receptionist.php [QSA,NC,L]
+RewriteRule (Other-Settings)$ other_settings.php [QSA,NC,L]
+RewriteRule (Product-Details-Page)$ sponsors_products_details.php [QSA,NC,L]
+RewriteRule (action)$ add_details.php [QSA,NC,L]
+RewriteRule (Patient-Eduction)$ patient_education.php [QSA,NC,L]
+RewriteRule (Drug-Database)$ manage_custom_drug_list.php [QSA,NC,L]
+RewriteRule (EMR-Settings)$ emr_setting.php [QSA,NC,L]
+RewriteRule (Discharge-Summary)$ discharge_summary.php [QSA,NC,L]
+RewriteRule (Out-Patient-Billing)$ op_billing.php [QSA,NC,L]
+RewriteRule (View-Out-Patient-Billing)$ view_op_billing123.php [QSA,NC,L]
+RewriteRule (Patient-Profile-Details)$ patient_profile_details.php [QSA,NC,L]
+RewriteRule (Surgery-Scheduler)$ surgery_scheduler.php [QSA,NC,L]
+RewriteRule (Reschedule)$ reschedule_appointment.php [QSA,NC,L]
+RewriteRule (Import-Contacts)$ import_contacts.php [QSA,NC,L]
+RewriteRule (Add-Campaign)$ add_campaign.php [QSA,NC,L]
+RewriteRule (Pharma-validattion-List)$ Pharma_validate_list.php [QSA,NC,L]
+RewriteRule (Pharma-validattion-Info)$ Pharma_validate_info.php [QSA,NC,L]
+</IfModule>
+
+
+
+
+

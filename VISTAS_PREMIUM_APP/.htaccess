@@ -1,0 +1,107 @@
+<IfModule mod_rewrite.c>
+Options Indexes FollowSymLinks
+RewriteEngine on
+
+RewriteRule (LOGIN)$ login.php [QSA,NC,L]
+RewriteRule (HOME_PROFILE)$ home_profile.php [QSA,NC,L]
+RewriteRule (APPOINTMENT_LISTS)$ appointment_lists.php [QSA,NC,L]
+
+RewriteRule (APPOINTMENT_DETAILS)$ appointment_details.php [QSA,NC,L]
+
+RewriteRule (APPOINTMENT_DETAILS1)$ appointment_details_1.php [QSA,NC,L]
+
+RewriteRule (CHIEF_MEDICAL_COMPLAINT_LIST)$ chief_medcomplaint_list.php [QSA,NC,L]
+RewriteRule (INVESTIGATIONS_LIST)$ investigations_list.php [QSA,NC,L]
+RewriteRule (EXAMINATION_LIST)$ examination_list.php [QSA,NC,L]
+RewriteRule (TREATMENT_LIST)$ treatment_list.php [QSA,NC,L]
+RewriteRule (DRUG_ABUSE_LIST)$ drug_abuse_list.php [QSA,NC,L]
+RewriteRule (FAMILY_HISTORY_LIST)$ family_history_list.php [QSA,NC,L]
+RewriteRule (APPOINTMENT_TRACKING)$ appointment_tracking.php [QSA,NC,L]
+RewriteRule (FREQUENT_CHIEF_MED_COMPLAINT_LIST)$ frequent_chief_medcomplaint_list.php [QSA,NC,L]
+RewriteRule (FREQUENT_INVESTIGATION_LIST)$ frequent_investigation_list.php [QSA,NC,L]
+RewriteRule (FREQUENT_EXAMINATIONS_LIST)$ frequent_examinations_list.php [QSA,NC,L]
+RewriteRule (FREQUENT_DIAGNOSIS_LIST)$  frequent_diagnosis_list.php [QSA,NC,L]
+RewriteRule (FREQUENT_TREATMENTS_LIST)$ frequent_treatments_list.php [QSA,NC,L]
+RewriteRule (FREQUENT_PRESCRIPTION_LIST)$ frequent_prescription_list.php [QSA,NC,L]
+RewriteRule (FREQUENT_DRUG_ALLERGY_LIST)$ frequent_drug_allery_list.php [QSA,NC,L]
+RewriteRule (FREQUENT_DRUGS_ABUSE_LIST)$ frequent_drugs_abuse_list.php [QSA,NC,L]
+RewriteRule (FREQUENT_FAMILYS_HISTORY_LIST)$ frequent_familys_history_list.php [QSA,NC,L]
+RewriteRule (DRUG_ALLEGY_LISTS)$ drug_allery_lists.php [QSA,NC,L]
+RewriteRule (DIAGNOSIS_SEARCH)$ diagnosis_search.php [QSA,NC,L]
+RewriteRule (PRESCRIPTION_SEARCH)$ prescription_search.php [QSA,NC,L]
+RewriteRule (ADD_VISIT)$ add_visit.php [QSA,NC,L]
+
+RewriteRule (ADD_VISIT1)$ add_visit_1.php [QSA,NC,L]
+
+RewriteRule (EDIT_VISIT)$ edit_visit.php [QSA,NC,L]
+RewriteRule (MEDICAL_HISTORY_DETAILS)$ medical_history_details.php [QSA,NC,L]
+RewriteRule (MEDICAL_HISTORY_UPDATE)$ medical_history_update.php [QSA,NC,L]
+RewriteRule (TREND_ANALYSIS_LIST)$ trend_analysis_list.php [QSA,NC,L]
+RewriteRule (ADD_TREND_ANALYSIS)$ trend_analysis_add.php [QSA,NC,L]
+RewriteRule (OLD_VISIT_LIST)$ old_visits_list.php [QSA,NC,L]
+RewriteRule (INVESTIGATIONS_UPDATE)$ investigations_update.php [QSA,NC,L]
+RewriteRule (DIAGNOSTICS_LIST)$ diagnostics_list.php [QSA,NC,L]
+RewriteRule (DIAGNOSTICS_ADD)$ diagnostic_center_add.php [QSA,NC,L]
+RewriteRule (DIAGNOSTICS_REFER)$ diagnostic_refer.php [QSA,NC,L]
+RewriteRule (PHARMA_LIST)$ pharma_list.php [QSA,NC,L]
+RewriteRule (PHARMA_ADD)$ pharma_add.php [QSA,NC,L]
+RewriteRule (PHARMA_REFER)$ pharma_refer.php [QSA,NC,L]
+RewriteRule (PRESCRIPTION_SEND)$ prescription_send.php [QSA,NC,L]
+RewriteRule (EMR_REPORTS)$ visit_reports_list.php [QSA,NC,L]
+RewriteRule (EMR_REPORTS_UPLOAD)$ visit_reports_uploads.php [QSA,NC,L]
+RewriteRule (BLOGS_FILTER)$ blogs_filter.php [QSA,NC,L]
+RewriteRule (SHARE_POST)$ share_post.php [QSA,NC,L]
+RewriteRule (LIKE_COMMENTS)$ like_comments.php [QSA,NC,L]
+RewriteRule (LIKE_UPDATES)$ like_updates.php [QSA,NC,L]
+RewriteRule (COMMENTS_ADD)$ comments_add.php [QSA,NC,L]
+RewriteRule (EVENT_REGISTER)$ event_register.php [QSA,NC,L]
+RewriteRule (APPLY_JOB)$ apply_job.php [QSA,NC,L]
+RewriteRule (PROFILE_DETAILS)$ profile_details.php [QSA,NC,L]
+RewriteRule (PROFILE_UPDATES)$ profile_updates.php [QSA,NC,L]
+RewriteRule (APPOINTMENT_SLOT_LIST)$ appointment_slot_list.php [QSA,NC,L]
+RewriteRule (APPOINTMENT_SLOT_SET)$ appointment_slot_set.php [QSA,NC,L]
+RewriteRule (HOSPITAL_ADD)$ hospital_add.php [QSA,NC,L]
+RewriteRule (STATE_SEARCH)$ state_search.php [QSA,NC,L]
+RewriteRule (HOLIDAYS_SET)$ holidays_set.php [QSA,NC,L]
+RewriteRule (CONTACT_US)$ contact_us.php [QSA,NC,L]
+RewriteRule (FORGOT_PASSWORD)$ forgot_password.php [QSA,NC,L]
+RewriteRule (SPECIALIZATION)$ specialization.php [QSA,NC,L]
+
+
+RewriteRule (VIDEO_CALL_LIST)$ video_call_list.php [QSA,NC,L]
+RewriteRule (VIDEO_CALL_LIST_ALL)$ video_call_list_all.php [QSA,NC,L]
+RewriteRule (FIREBASE_TOKEN_UPDATE)$ firebase_token_update.php [QSA,NC,L]
+RewriteRule (TELECONSULT_NOTIFY_UPDATE)$ teleconsult_notify_update.php [QSA,NC,L]
+RewriteRule (TELECONSULT_NOTIFY_PAYMENTS)$ teleconsult_notify_payments.php [QSA,NC,L]
+RewriteRule (WAITING_ROOM_DETAILS)$ waiting_room_details.php [QSA,NC,L]
+
+RewriteRule (SECOND_OPINION_LISTS)$ second_opinion_lists.php [QSA,NC,L]
+RewriteRule (SECOND_OPINION_DETAILS)$ second_opinion_details.php [QSA,NC,L]
+RewriteRule (SEND_CHAT)$ sendchat.php [QSA,NC,L]
+RewriteRule (DOCTOR_SPECILIZATION)$ doctor_specilization.php [QSA,NC,L]
+RewriteRule (DOCTOR_INFO)$ doctor_info.php [QSA,NC,L]
+RewriteRule (UPDATE_DOCTOR_INFO)$ update_doctor_info.php [QSA,NC,L]
+RewriteRule (GET_ACTIVE_STATUS)$ active_status.php [QSA,NC,L]
+RewriteRule (UPDATE_ACTIVE_STATUS)$ update_active_status.php [QSA,NC,L]
+
+RewriteRule (CHIEF_MEDICAL_SEARCH)$ chief_medical_search.php [QSA,NC,L]
+
+RewriteRule (EXAMINATION_SEARCH)$ search_examination.php [QSA,NC,L]
+RewriteRule (TREATMENT_SEARCH)$ search_treatment.php [QSA,NC,L]
+RewriteRule (INVESTIGATION_SEARCH)$ search_investigation.php [QSA,NC,L]
+RewriteRule (VISIBILITY_STATUS)$ visibility_status.php [QSA,NC,L]
+RewriteRule (HEALTH_PASSPORT)$ health_passport.php [QSA,NC,L]
+RewriteRule (EMR_SUBMISSION)$ emr_submission.php [QSA,NC,L]
+
+
+
+
+
+
+
+</IfModule>
+
+
+
+
+

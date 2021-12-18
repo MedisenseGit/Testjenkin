@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'tt1127m';
+    src: url('tt1127m.eot');
+    src: url('tt1127m.eot?#iefix') format('embedded-opentype'),
+         url('tt1127m.woff') format('woff'),
+         url('tt1127m.TTF') format('truetype'),
+         url('tt1127m.svg#tt1127m') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TrajanPro';
+    src: url('TrajanPro-Regular.eot');
+    src: url('TrajanPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('TrajanPro-Regular.woff') format('woff'),
+         url('TrajanPro-Regular.otf') format('opentype'),
+         url('TrajanPro-Regular.svg#TrajanPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.floatleft {float:left !important;}
+
+
+img {
+    max-width:100%;
+    height:auto;
+    border:0; 
+    vertical-align:top;
+}
+
+
+
+.banner-area {
+    background-color: #2d3e50;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 510px;
+    position: relative;
+    z-index: 1;
+}
+.banner-text {display: table}
+.banner-area .container, .banner-area .row, .banner-area .col-lg-7, .banner-area .banner-text, .banner-area .banner-table-cell {
+    height: 100%;
+}
+.banner-area .col-lg-7 {padding-right: 0;}
+.banner-product-image {
+  
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+	margin-top:15%;
+}
+.banner-table-cell {
+    display: table-cell;
+   
+    z-index: 9;
+    position: relative;
+	padding-top:25px;
+}
+.banner-list{    list-style: none !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+    font-family: 'TrajanPro' !important;
+	}
+.banner-list li{
+text-align: left !important;
+    text-transform: none !important;
+    font-family: 'TrajanPro' !important;
+    font-size: 15px !important;
+    color: #ffffff !important;
+	}
+.banner-text h1 {
+    color: #ffffff;
+    font-size: 35px;
+ 
+    line-height: 32px;
+    margin-bottom: 23px;
+    text-transform: uppercase;
+	   font-family: 'TrajanPro';
+}
+.banner-text h1 span {text-transform: uppercase;
+    color: #098fd4;
+    font-family: 'TrajanPro';
+    font-size: 22px;}
+.banner-text p {color: #ffffff; margin-bottom: 33px}
+.button-default {
+    background: #fff none repeat scroll 0 0;
+    border: 0 none;
+    color: #2d3e50;
+    display: inline-block;
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 53px;
+    padding: 0 31px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s
+}
+.button-default:hover {
+    background-color: #ffffff !important;
+    color: #2d3e50 !important;
+}
+.banner-buttons .button-default {margin-right: 26px}
+.banner-buttons a.button-default:hover {
+    background-color: #7a9757 !important;
+    color: #ffffff !important;
+}
+.banner-apps {
+    margin-left:100px;
+    margin-top: -281px;
+    position: absolute;
+}
+.banner-apps .single-app:nth-child(1) {
+    left: -47px;
+    position: absolute;
+    top: 250px;
+}
+.banner-apps .single-app:nth-child(2) {
+    left: 98px;
+    position: absolute;
+    top: 212px;
+}
+.banner-apps .single-app:nth-child(3) {
+    left: 241px;
+    position: absolute;
+    top: 179px;
+}
+.banner-apps .single-app:nth-child(4) {
+    left: 382px;
+    position: absolute;
+    top: 130px;
+}
+.single-app {
+    background: #098fd4 none repeat scroll 0 0;
+    border: 3px solid #ffffff;
+    border-radius: 100%;
+    display: inline-table;
+    height: 125px;
+    text-align: center;
+    width: 125px;
+    -webkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+    z-index: 99;
+	cursor:pointer;
+}
+.single-app-table-cell {display: table-cell; vertical-align: middle}
+.single-app h4, .single-app h3 {
+    color: #ffffff;
+    font-family: "latobold";
+    font-size: 11px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.single-app h3 {font-size: 16px;
+margin-top:0px;
+    line-height: 1.3;
+    letter-spacing: 0.3px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;}
+.single-app img {
+   width: 50px;
+    margin-bottom: 10px;
+}
+
+.download-area {
+    background: url("../img/banner/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: -137px;
+    padding-bottom: 348px;
+    padding-top: 298px;
+    position: relative;
+    z-index: 2;
+}
+.download-area:before, .banner-area:before{
+    background-image: url("../img/shape.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    content: "";
+    height: 323px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.download-area:after {
+    background-image: url("../img/shape.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    height: 323px;
+    right: 0;
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    z-index: 1;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+
+
+.banner-area:before {
+    bottom: 0px;
+    right: 0;
+    top: auto;
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.banner-area.banner-image.horizontal {height: 671px;}
+
+	@media(min-width:767px) and (max-width:978px) {
+.banner-apps {
+    margin-left: 100px;
+    margin-top: -334px;
+    position: absolute;
+}
+}

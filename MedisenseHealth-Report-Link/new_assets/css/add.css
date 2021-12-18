@@ -1,0 +1,24 @@
+/* badges */
+.badge {
+  font-weight: 900;
+  text-transform:capitalize;
+  font-size:10px !important;
+      margin-left: 6px;
+	
+  
+}
+.badge.element-bg-color-blue {
+  background-color: #1D92AF;
+}
+.badge.element-bg-color-green {
+  background-color: #859419;
+}
+.badge.element-bg-color-seagreen {
+  background-color: #3F7577;
+}
+.badge.element-bg-color-orange {
+  background-color: #CE7B11;
+}
+.badge.element-bg-color-red {
+  background-color: #E94B3B;
+}

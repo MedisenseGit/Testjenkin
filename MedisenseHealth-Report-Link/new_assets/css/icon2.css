@@ -1,0 +1,252 @@
+.pos{    position: relative;
+    bottom: 4px;}
+.icon-sz0{font-size:18px !important;}
+.icon-sz2{font-size:22px !important;}
+
+.icon-sz4{font-size:28px !important;}
+.pad-right{
+    padding-right: 15px;}
+.icon-sz3{font-size:25px !important;}
+.icon-sz1{font-size:20px !important;}
+.icon-sz5{font-size:38px !important;}
+.comment-icon{font-size: 15px;
+    position: relative;
+    top: 2px;}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('https://medisensehealth.com/new_assets/fonts/icomoon.eot?nh2k4i');
+  src:  url('https://medisensehealth.com/new_assets/fonts/icomoon.eot?nh2k4i#iefix') format('embedded-opentype'),
+    url('https://medisensehealth.com/new_assets/fonts/icomoon.ttf?nh2k4i') format('truetype'),
+    url('https://medisensehealth.com/new_assets/fonts/icomoon.woff?nh2k4i') format('woff'),
+    url('https://medisensehealth.com/new_assets/fonts/icomoon.svg?nh2k4i#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-SE:before {
+  content: "\e915";
+}
+.icon-picture:before {
+  content: "\e00f";
+}
+.icon-video:before {
+  content: "\e011";
+}
+.icon-edit:before {
+  content: "\e01c";
+}
+.icon-map:before {
+  content: "\e025";
+}
+.icon-gears:before {
+  content: "\e02b";
+}
+.icon-pencil:before {
+  content: "\e032";
+}
+.icon-magnifying-glass:before {
+  content: "\e037";
+}
+.icon-profile-male:before {
+  content: "\e040";
+}
+.icon-map-pin:before {
+  content: "\e047";
+}
+.icon-chat2:before {
+  content: "\e049";
+}
+.icon-global:before {
+  content: "\e052";
+}
+.icon-clock:before {
+  content: "\e055";
+}
+.icon-clipboard:before {
+  content: "\e900";
+}
+.icon-clipboard2:before {
+  content: "\e901";
+}
+.icon-home:before {
+  content: "\e917";
+}
+.icon-clipboard-edit:before {
+  content: "\e902";
+}
+.icon-clipboard-add:before {
+  content: "\e903";
+}
+.icon-clipboard-checked:before {
+  content: "\e904";
+}
+.icon-clipboard-text:before {
+  content: "\e905";
+}
+.icon-document-edit:before {
+  content: "\e906";
+}
+.icon-blog:before {
+  content: "\e914";
+}
+.icon-social-facebook-outline:before {
+  content: "\e911";
+}
+.icon-social-googleplus-outline:before {
+  content: "\e912";
+}
+.icon-social-twitter-outline:before {
+  content: "\e913";
+}
+.icon-review:before {
+  content: "\e910";
+}
+.icon-free:before {
+  content: "\e90c";
+}
+.icon-free1:before {
+  content: "\e909";
+}
+.icon-icon-paid1:before {
+  content: "\e90a";
+}
+.icon-support:before {
+  content: "\e90b";
+}
+.icon-location:before {
+  content: "\e908";
+}
+.icon-thumbs-up:before {
+  content: "\e907";
+}
+.icon-thumbs-down:before {
+  content: "\e90d";
+}
+.icon-phone_missed:before {
+  content: "\e61f";
+}
+.icon-warning:before {
+  content: "\e002";
+}
+.icon-chat:before {
+  content: "\e90e";
+}
+.icon-users:before {
+  content: "\e916";
+}
+.icon-share:before {
+  content: "\e90f";
+}
+.icon-image2:before {
+  content: "\e010";
+}
+.icon-video2:before {
+  content: "\e018";
+}
+.icon-bold:before {
+  content: "\f032";
+}
+.icon-italic:before {
+  content: "\f033";
+}
+.icon-video-camera:before {
+  content: "\f03d";
+}
+.icon-image:before {
+  content: "\f03e";
+}
+.icon-photo:before {
+  content: "\f03e";
+}
+.icon-picture-o:before {
+  content: "\f03e";
+}
+.icon-chain:before {
+  content: "\f0c1";
+}
+.icon-link:before {
+  content: "\f0c1";
+}
+.icon-strikethrough:before {
+  content: "\f0cc";
+}
+.icon-underline:before {
+  content: "\f0cd";
+}
+.icon-user-md:before {
+  content: "\f0f0";
+}
+.icon-hospital-o:before {
+  content: "\f0f8";
+}
+.icon-playback-play:before {
+  content: "\f0bf";
+}
+.icon-home2:before {
+  content: "\e918";
+}
+.icon-pill:before {
+  content: "\e91a";
+}
+
+.phone_missed{background: #134fa0;
+    color: #fff;
+    padding: 5px;
+    border-radius: 2px;    margin-right: 5px;
+	font-size:14px;}
+
+
+ @media only screen and (min-width : 768px) {
+.icon-sz0{font-size:18px !important;}
+.icon-sz1{font-size:22px !important;}
+.icon-sz2{font-size:25px !important;}
+.icon-sz3{font-size:28px !important;}
+.pad-right{
+    padding-right: 15px;}
+.icon-sz4{font-size:35px !important;}
+.icon-sz5{font-size:40px !important;}
+.icon-sz6{font-size:45px !important;}
+ }
+
+  @media only screen and (min-width : 992px) {
+	  .icon-sz0{font-size:18px !important;}
+.icon-sz1{font-size:22px !important;}
+.icon-sz2{font-size:25px !important;}
+.icon-sz3{font-size:28px !important;}
+.pad-right{
+    padding-right: 15px;}
+.icon-sz4{font-size:35px !important;}
+.icon-sz5{font-size:40px !important;}
+.icon-sz6{font-size:45px !important;}
+  }

@@ -1,0 +1,63 @@
+<IfModule mod_rewrite.c>
+Options Indexes FollowSymLinks
+RewriteEngine on
+
+RewriteRule (login)$ logout.php [QSA,NC,L]
+RewriteRule (register)$ register.php [QSA,NC,L]
+RewriteRule (forgot)$ forgot.php [QSA,NC,L]
+RewriteRule (Home)$ home.php [QSA,NC,L]
+RewriteRule (Favorites)$ favorite_list.php [QSA,NC,L]
+RewriteRule (Care-Partners)$ care_partners.php [QSA,NC,L]
+RewriteRule (Doctor-Profile)$ doc_profile.php [QSA,NC,L]
+RewriteRule (Appointments)$ all_appointments.php [QSA,NC,L]
+RewriteRule (Appointment-Patient-Profile)$ my_appointment_patient_detail.php [QSA,NC,L]
+RewriteRule (Cases-Recieved)$ cases_recieved.php [QSA,NC,L]
+RewriteRule (Responded-Records)$ responded_records.php [QSA,NC,L]
+RewriteRule (Pending-Records)$ pending_records.php [QSA,NC,L]
+RewriteRule (Provisional-Visits)$ provisional_visits.php [QSA,NC,L]
+RewriteRule (Profile)$ user_profile.php [QSA,NC,L]
+RewriteRule (Blogs)$ blogs.php [QSA,NC,L]
+RewriteRule (Offers)$ offers.php [QSA,NC,L]
+RewriteRule (patient-history)$ patient_history.php [QSA,NC,L]
+RewriteRule (Patient-Profile)$ my_patient_profile.php [QSA,NC,L]
+RewriteRule (Add-Hospital)$ add_hospital.php [QSA,NC,L]
+RewriteRule (Add-Hospital-Doctors)$ add_doctor.php [QSA,NC,L]
+RewriteRule (Add-Hospital-Doctors1)$ add_doctor1.php [QSA,NC,L]
+RewriteRule (Add-Marketing-Persons)$ add_marketing_person.php [QSA,NC,L]
+RewriteRule (Blog-List)$ blog_list.php [QSA,NC,L]
+RewriteRule (Offers-Events-List)$ offers_events_list.php [QSA,NC,L]
+RewriteRule (Job-Post)$ job_post.php [QSA,NC,L]
+RewriteRule (Surgical-Video)$ surgical_video.php [QSA,NC,L]
+RewriteRule (Add-Blog)$ add_blogs.php [QSA,NC,L]
+RewriteRule (Add-Videos)$ add_surgical_video.php [QSA,NC,L]
+RewriteRule (Add-Event)$ add_offers_events.php [QSA,NC,L]
+RewriteRule (Add-Jobs)$ add_jobs.php [QSA,NC,L]
+RewriteRule (Data-Analytics)$ data_analytics.php [QSA,NC,L]
+RewriteRule (Edit-Marketing-Persons)$ edit_marketing_person.php [QSA,NC,L]
+RewriteRule (Edit-Hospital)$ edit_hospital.php [QSA,NC,L]
+RewriteRule (Edit-Doctor)$ edit_doctor.php [QSA,NC,L]
+RewriteRule (Edit-Doctor1)$ edit_doctor1.php [QSA,NC,L]
+
+RewriteRule (Edit-Subscribe)$ edit_subscribe.php [QSA,NC,L]
+RewriteRule (Referred-EMR)$ my_patient.php [QSA,NC,L]
+RewriteRule (Add-Diagnostics)$ add_diagnostics.php [QSA,NC,L]
+RewriteRule (Add-Pharmacy)$ add_pharmacy.php [QSA,NC,L]
+RewriteRule (Patient-Detail)$ patient_details.php [QSA,NC,L]
+RewriteRule (Diagnostic-Refer)$ diagnostic_ref_link.php [QSA,NC,L]
+RewriteRule (Pharma-Refer)$ pharma_ref_link.php [QSA,NC,L]
+RewriteRule (Subscribes)$ Subscribes.php [QSA,NC,L]
+RewriteRule (Add-Subscribe-Company)$ add_subscribe_company.php [QSA,NC,L]
+RewriteRule (Edit-Subscribe-Company)$ edit_subscribe_company.php [QSA,NC,L]
+RewriteRule (Corporate-Appointment)$ corporate_appointments.php [QSA,NC,L]
+RewriteRule (Pharma-Diagnostic-List)$ pharma_diagno_list.php [QSA,NC,L] 
+RewriteRule (Reschedule)$ reschedule_appointment.php [QSA,NC,L]
+RewriteRule (Onboard-Doctor-List)$ onboard_doctor.php [QSA,NC,L]
+RewriteRule (Onboard-Doctor-details)$ doctor-details-form.php [QSA,NC,L]
+
+
+</IfModule>
+
+
+
+
+

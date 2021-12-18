@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+Options Indexes FollowSymLinks
+RewriteEngine on
+
+
+RewriteRule (doctors-profile)$ index.php?ency_id= [QSA,NC,L]
+RewriteRule (empanel-terms)$ doc_terms.php [QSA,NC,L]
+
+</IfModule>
+
+
+
+
+

@@ -1,0 +1,264 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ 
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+header, .navigation{
+	max-height: 550px;
+}
+.hero-area {
+    background-position: 100% top;
+    max-height: 550px;
+    position: relative;
+    z-index: 1;
+}
+.hero-area::after {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), transparent);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.single-blog-post {
+  margin-bottom: 50px;
+}
+#blog div > div:last-child div:last-child .single-blog-post {
+  margin-bottom: 0;
+}
+.about-single-item .section-title {
+  font-size: 20px;
+}
+.personal-info li {
+  line-height: 1.7;
+  padding-left: 95px;
+}
+.personal-info li span {
+  min-width: 80px;
+}
+.counter-icons::after, .counter-icons::before {
+    display: none;
+}
+.counter-box span {
+    display: block;
+    margin: 0;
+}
+.counter-icons {
+    padding: 0;
+}
+.counter-icons i.fa {
+    font-size: 25px;
+}
+.counter-icons p {
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
+#services {
+  background-image: none;
+  background-color: #eaeaea ;
+}
+
+.portfolio-overlay {
+  padding: 30px;
+}
+    
+ }
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.elegant-btn {
+  padding: 5px 20px;
+}
+.section-padding{
+  padding: 50px 0;
+}
+header, .navigation {
+  max-height: 400px;
+}
+.hero-area {
+    background-position: center;
+    max-height: 550px;
+    position: relative;
+    z-index: 1;
+}
+.hero-area::after {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(to right, rgb(255, 255, 255), transparent);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.hero-content h1 {
+    font-size: 30px;
+}
+.hero-content > h5 {
+    font-size: 20px;
+}
+.hero-content > p {
+    font-size: 16px;
+}
+.social-area {
+    margin-top: 15px;
+    padding-left: 0;
+}
+.social-area::before{
+  display: none;
+}
+.menu-bars {
+    right: 25px;
+    top: 25px;
+}
+
+.navigation::before {
+  background-image: linear-gradient(to left, rgb(0, 0, 0, 1), transparent);
+  background-color: rgb(0,0,0, .8);
+}
+.navigation > .navigation-inner {
+  max-height: 350px;
+  right: 25px;
+}
+.main-menu {
+  margin: 0;
+  text-align: right;
+}
+.about-single-item, 
+.single-blog-post,
+.counter-box {
+  margin-bottom: 25px;
+}
+#about div > div:last-child div:last-child .about-single-item,
+#blog div > div:last-child div:last-child .single-blog-post,
+#counter div > div:last-child div:last-child .counter-box {
+  margin-bottom: 0;
+}
+.section-header {
+  text-align: left;
+}
+.section-title {
+  font-size: 24px;
+}
+.section-title span {
+  display: block;
+  margin-top: 5px;
+}
+.section-title::after {
+  left: 0;
+  margin: 0;
+}
+#about .section-header {
+  margin-bottom: 0;
+}
+.about-single-item .section-title {
+  margin-top: 35px;
+}
+.portfolio-navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-navigation li {
+  font-size: 14px;
+  padding: 5px 15px;
+  text-transform: capitalize;
+}
+ 
+.portfolio-navigation li:hover, 
+.portfolio-navigation li.active {
+    border: 1px dashed;
+}
+.portfolio-navigation li{
+    border: 1px dashed transparent;
+}
+.row.portfolio-list {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.portfolio-overlay h4 {
+  font-size: 18px;
+}
+#services {
+  background-image: none;
+  background-color: #eaeaea ;
+}
+
+.experiences-single-box > h3 {
+  font-size: 18px;
+}
+.ScrollToTop {
+  bottom: 25px;
+}
+.ScrollToTop a {
+  height: 30px;
+  line-height: 25px;
+  width: 30px;
+}
+
+.counter-icons::after, .counter-icons::before {
+    display: none;
+}
+.counter-box span {
+    display: block;
+    margin: 0;
+}
+.counter-icons {
+    padding: 0;
+}
+.counter-icons i.fa {
+    font-size: 25px;
+}
+.counter-icons p {
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.portfolio-overlay {
+  padding: 30px 15px;
+}
+
+
+.testimonial-single-item {
+  text-align: left;
+}
+
+.testimonial-slides .testimonial-single-item .client-img {
+  margin: inherit;
+  margin-bottom: 15px;
+}
+.testimonial-slides.owl-carousel .owl-dots {
+  text-align: left;
+}
+.blog-meta {
+    font-size: 12px;
+}
+.blog-meta span {
+    padding-left: 5px;
+}
+#contact {
+  padding-top: 0;
+}
+.contact-us .section-title::after {
+  left: 50%;
+  margin-left: -50px;
+}
+
+.copyright {
+  font-size: 85%;
+  text-align: left;
+  padding-right: 60px;
+}
+
+ }
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+ }

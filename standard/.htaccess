@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+Options Indexes FollowSymLinks
+RewriteEngine on
+
+RewriteRule (login)$ login.php [QSA,NC,L]
+RewriteRule (OTP)$ otp.php [QSA,NC,L]
+RewriteRule (register)$ register.php [QSA,NC,L]
+RewriteRule (forgot)$ forgot.php [QSA,NC,L]
+RewriteRule (Home)$ home.php [QSA,NC,L]
+RewriteRule (Favorites)$ favorite_list.php [QSA,NC,L]
+RewriteRule (My-Connections)$ my_connections.php [QSA,NC,L]
+RewriteRule (Doctor-Profile)$ doc_profile.php [QSA,NC,L]
+RewriteRule (Appointments)$ my_appointments.php [QSA,NC,L]
+RewriteRule (Cases-Sent)$ cases_sent.php [QSA,NC,L]
+RewriteRule (Profile)$ user_profile.php [QSA,NC,L]
+RewriteRule (Blogs)$ blogs.php [QSA,NC,L]
+RewriteRule (Offers)$ offers.php [QSA,NC,L]
+RewriteRule (patient-history)$ patient_history.php [QSA,NC,L]
+RewriteRule (My-Patients)$ my_patient.php [QSA,NC,L]
+RewriteRule (My-Patient-Details)$ my_patient_profile.php [QSA,NC,L]
+RewriteRule (share-post/.*/.*)$ share-post.php [QSA,NC,L]
+RewriteRule (share-blogs/.*/.*)$ share-blogs.php [QSA,NC,L]
+RewriteRule (Appointment-Patient-Profile)$ my_appointment_patient_detail.php [QSA,NC,L]
+</IfModule>
+
+
+
+
+

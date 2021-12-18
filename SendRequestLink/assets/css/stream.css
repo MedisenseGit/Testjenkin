@@ -1,0 +1,22 @@
+.movies-pagination{
+  text-align: center;
+}
+
+.movies-pagination li a{
+ color: #000;
+}
+.pagination>li:hover a,.movies-pagination li.active a{
+   background:#49c3ec;
+   color:#fff;
+   border-color:transparent;
+}
+
+
+.con{margin-top:0px;
+text-align:center;
+}
+@media only screen and (min-width : 992px) {
+	.con{margin-top:25px;
+text-align:none;
+}
+}

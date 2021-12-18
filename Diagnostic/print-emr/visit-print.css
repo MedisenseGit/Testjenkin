@@ -1,0 +1,46 @@
+html,body,div,p,ul,table,tr,th,td,select{margin:0;padding:0}
+body{font-family:Arial, Verdana, sans-serif;font-size:14px;color:#666;line-height:1.5;background-color:#FFF;padding:20px}
+.container{max-width:720px;margin:0 auto;border:2px solid #D4D4D4;padding:20px;padding-bottom:40px}
+.group:after{content:"";display:table;clear:both}
+header #logo{float:left;display:block;width:185px}
+header #doc-details{height:130px;float:right;padding:20px 0}
+header #doc-details p{display:inline-block}
+#patient-details{background-color:#ecf6f7;padding:20px; margin:0 0 20px 0;}
+#patient-details p{margin:0;padding:0;width:220px;vertical-align:top;float:left}
+#patient-details p:last-child{text-align:right;margin-right:0}
+#diagnosis{background-color:#ecf6f7; border:1px solid #dfe0e0; padding:20px; margin:20px 0;}
+#diagnosis ul{list-style:none}
+#diagnosis ul li{margin-bottom:5px}
+table{border-collapse:collapse;border-spacing:0;width:100%}
+table tr{border-bottom:2px solid #CBCBCB}
+table tr th,table tr td{padding:5px}
+table tr th{background-color:#ecf6f7;text-align:left}
+.btn{display:block;padding:5px 20px;background-color:#38B651;color:#FFF;text-decoration:none;border-radius:5px;margin:20px 0}
+.btn:hover{background-color:#2c8f40}
+#qr{}
+#qr img{margin:20px 0 0 40px; width:120px}
+#actions{position:absolute;top:10px;right:30px}
+.radioSection{ margin-top:20px; }
+.radioSection lable{ font-size:6px;}
+@media print{body{padding:5px}
+.container{max-width:auto}
+#patient-details{border:2px solid #EEE}
+#patient-details p{width:33%}
+.btn{display:none}
+#actions{display:none}}
+select{
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+   font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding:10px;
+}
+select[multiple],
+select[size] {
+  height: auto;
+}
+
+/*# sourceMappingURL=visit-print.css.map */

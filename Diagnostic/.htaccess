@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+Options Indexes FollowSymLinks
+RewriteEngine on
+
+RewriteRule (login)$ login.php [QSA,NC,L]
+RewriteRule (register)$ register.php [QSA,NC,L]
+RewriteRule (forgot)$ forgot.php [QSA,NC,L]
+RewriteRule (Reports)$ home.php [QSA,NC,L]
+
+RewriteRule (Doctor-Profile)$ doc_profile.php [QSA,NC,L]
+RewriteRule (Profile)$ user_profile.php [QSA,NC,L]
+
+RewriteRule (Password)$ user_profile_password.php [QSA,NC,L]
+
+RewriteRule (patient-history)$ patient_history.php [QSA,NC,L]
+RewriteRule (Appointments)$ diagno_ref_list.php [QSA,NC,L]
+RewriteRule (Customer_Profile_Info)$ customer_profile.php [QSA,NC,L]
+
+RewriteRule (Payments)$ payments.php [QSA,NC,L]
+
+RewriteRule (Visit-Detail)$ visit_details.php [QSA,NC,L]
+RewriteRule (Patient_Profile_Info)$ patient_profile.php [QSA,NC,L]
+RewriteRule (Patient-Profile-Payment)$ patient_profile_payment.php [QSA,NC,L]
+</IfModule>
+
+
+
+
+

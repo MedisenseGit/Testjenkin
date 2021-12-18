@@ -1,0 +1,40 @@
+<IfModule mod_rewrite.c>
+Options Indexes FollowSymLinks
+RewriteEngine on
+
+
+RewriteRule (login)$ index1.php [QSA,NC,L]
+RewriteRule (forgot)$ forgot_password.php [QSA,NC,L]
+RewriteRule (user-panel)$ main.php [QSA,NC,L]
+RewriteRule (All-Patient-Records)$ all_record.php [QSA,NC,L]
+RewriteRule (My-Patient-List)$ my_patient_list.php [QSA,NC,L]
+RewriteRule (My-Patient-Profile)$ my_patient_profile.php [QSA,NC,L]
+RewriteRule (Doctors-List)$ doctors_list.php [QSA,NC,L]
+RewriteRule (Favourite-Doctors)$ favourite-doc.php [QSA,NC,L]
+RewriteRule (patient-history)$ patient_history.php [QSA,NC,L]
+RewriteRule (view-profile)$ partner_profile.php [QSA,NC,L]
+RewriteRule (settings)$ settings.php [QSA,NC,L]
+RewriteRule (Data-Analytics)$ data_analytics.php [QSA,NC,L]
+RewriteRule (user-login)$ index.php [QSA,NC,L]
+RewriteRule (srch)$ search.php [QSA,NC,L]
+RewriteRule (Blogs)$ blogs.php [QSA,NC,L]
+RewriteRule (Offers-Events)$ offers_events.php [QSA,NC,L]
+RewriteRule (Add-Offers)$ add_offers_events.php [QSA,NC,L]
+RewriteRule (Add-Patient)$ add_patient.php [QSA,NC,L]
+RewriteRule (Refer-Patient)$ refer_patient_doctor.php [QSA,NC,L]
+RewriteRule (Blogs-Offers-Events-List)$ blogs-offers-events-listing.php [QSA,NC,L]
+RewriteRule (Referred-Patient-Records)$ total_referred_patient.php [QSA,NC,L]
+RewriteRule (Responded-Patient-Records)$ total_responded_patient.php [QSA,NC,L]
+RewriteRule (Treated-Patient-Records)$ total_treated_patient.php [QSA,NC,L]
+RewriteRule (Pending-Records)$ pending_records.php [QSA,NC,L]
+RewriteRule (Appointments)$ appointments.php [QSA,NC,L]
+RewriteRule (Appointment-Patient-History)$ appointment_patient_history.php [QSA,NC,L]
+RewriteRule (Create-Appointment)$ create_appointment.php [QSA,NC,L]
+RewriteRule (share-post/.*/.*)$ share-post.php [QSA,NC,L]
+RewriteRule (share-blogs/.*/.*)$ share-blogs.php [QSA,NC,L]
+</IfModule>
+
+
+
+
+

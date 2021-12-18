@@ -1,0 +1,68 @@
+.mw30 {
+    max-width: 30px !important;
+}
+.br64 {
+    border-radius: 64px !important;
+}
+
+.navbar .dropdown-menu > li.dropdown-header {
+    padding: 8px;
+    background: #fafafa;
+    border-bottom: 1px solid #e5e5e5;
+}
+.navbar .dropdown-menu > li.dropdown-header {
+    padding: 8px;
+    background: #fafafa;
+    border-bottom: 1px solid #e5e5e5;
+}
+.pl15 {
+    padding-left: 15px !important;
+}
+
+.w250{    width: 250px !important;
+}
+.navbar.navbar-shadow {
+background:#fff;
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.08), 0px 2px 0px 0px rgba(0, 0, 0, 0.02);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.08), 0px 2px 0px 0px rgba(0, 0, 0, 0.02);
+}
+.navbar-nav>li>a:hover,.navbar-nav>li>a.focus,.navbar-nav>li>a.active,.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+background-color:transparent;
+}
+.navbar .navbar-nav .open .dropdown-menu{
+border-radius:0;
+margin-top:10px;
+}
+
+/* Dropdown Helper - Item Divider */
+.navbar .dropdown-menu .menu-divider {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 8px;
+  padding: 25px 10px;
+}
+/* Dropdown Helper - Header Item */
+.navbar .dropdown-menu > li.dropdown-header {
+  padding: 8px;
+  background: #fafafa;
+  border-bottom: 1px solid #e5e5e5;
+  /* Header Item - Title */
+  /* Header Item - Label */
+}
+.navbar .dropdown-menu > li.dropdown-header .dropdown-title {
+  color: #666;
+  font-size: 13px;
+  font-weight: 600;
+  padding-left: 5px;
+  line-height: 30px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0px !important;
+    margin-bottom: -1px;
+    background-color: #ffffff;
+    border: 1px solid #e7e7e7;
+}
+.navbar .nav .list-group > li.list-group-item > a {
+     padding: 12px; 
+}

@@ -1,0 +1,19 @@
+{
+    "name": "asifr/dospaces",
+    "description": "Digitalocean File Upload",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Asif",
+            "email": "asifroyal@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "league/flysystem-aws-s3-v3": "~1.0"
+    }
+}

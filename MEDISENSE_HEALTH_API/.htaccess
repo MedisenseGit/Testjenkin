@@ -1,0 +1,51 @@
+<IfModule mod_rewrite.c>
+Options Indexes FollowSymLinks
+RewriteEngine on
+
+
+RewriteRule (REC_SECOND_OPINION)$ rec_second_opinion_api.php [QSA,NC,L]
+RewriteRule (GET_DOC_DETAILS)$ your_doc_page_api.php [QSA,NC,L]
+RewriteRule (GET_DOC_PROFILE)$ doc_profile.php [QSA,NC,L]
+RewriteRule (BOOK_APPOINTMENT)$ book_appointment_request.php [QSA,NC,L]
+RewriteRule (book_teleconsultation)$ book_teleconsultation.php [QSA,NC,L]
+RewriteRule (GET_STATE)$ get_state.php [QSA,NC,L]
+RewriteRule (GET_DATE_TIMING)$ get_doc_date_timing.php [QSA,NC,L]
+RewriteRule (GET_BLOG)$ your_blog_page_api.php [QSA,NC,L]
+RewriteRule (REGISTER)$ user_register.php [QSA,NC,L]
+RewriteRule (LOGIN)$ user_login.php [QSA,NC,L]
+RewriteRule (OTPCONFIRM)$ login_otp_confirm.php [QSA,NC,L]
+RewriteRule (MYREQUEST)$ myrequest_list.php [QSA,NC,L]
+RewriteRule (HOME_PAGE_API)$ home_page_api.php [QSA,NC,L]
+RewriteRule (OPINION_DETAILS)$ opinion_details_page_api.php [QSA,NC,L]
+RewriteRule (VISIT_DETAILS)$ visit_details_page_api.php [QSA,NC,L]
+RewriteRule (APPOINTMENT_PAGE_DATA)$ appointment_page_data_api.php [QSA,NC,L]
+RewriteRule (OPINION_APPOINT_REQUEST)$ opinion_appoint_page_api.php [QSA,NC,L]
+RewriteRule (ADD_FAMILY_MEMBER)$ add_familymember_api.php [QSA,NC,L]
+RewriteRule (USER_PROFILE)$ user_profile_update.php [QSA,NC,L]
+RewriteRule (FAMILY_MEMBER)$ family_member_details_api.php [QSA,NC,L]
+RewriteRule (USER_SIGNIN)$ google_login_page.php [QSA,NC,L]
+RewriteRule (USER_SIGNIN1)$ google_login_page1.php [QSA,NC,L]
+
+RewriteRule (USER_SIGN)$ google_login_page123.php [QSA,NC,L]
+
+RewriteRule (BLOG_LIKE_COMMENT)$ blog_like_update.php [QSA,NC,L]
+
+RewriteRule (MEDISENSE_CONNECT)$ medisense_connect.php [QSA,NC,L]
+RewriteRule (ADD_YOUR_STORY)$ add_your_story_api.php [QSA,NC,L]
+RewriteRule (GET_STORIES)$ your_story_api.php [QSA,NC,L]
+RewriteRule (COMPANY_IMAGE)$ company_image.php [QSA,NC,L]
+RewriteRule (REC_SECOND_OPINION_CORONA)$ rec_second_opinion_corona_api.php [QSA,NC,L]
+RewriteRule (HEALTH_TRACK)$ health_track.php [QSA,NC,L]
+
+RewriteRule (HOME_PREMIUM_PAGE_API)$ home_premium_page_api.php [QSA,NC,L]
+RewriteRule (HEALT_PROFILE)$ my_health_profile_update_api.php [QSA,NC,L]
+RewriteRule (TELECONSULT_DOC_PROFILE)$ teleconsult_doc_profile.php [QSA,NC,L]
+RewriteRule (TELECONSULT_STATUS_CHECK)$ get_teleconsult_status_check.php [QSA,NC,L]
+RewriteRule (TELECONSULT_PAYMENT)$ teleconsult_payment.php [QSA,NC,L]
+RewriteRule (ADD_PERSONALIZE)$ add_personalize_api.php [QSA,NC,L]
+</IfModule>
+
+
+
+
+
