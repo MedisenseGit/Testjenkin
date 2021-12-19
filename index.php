@@ -13,7 +13,7 @@ if(isset($_POST['cmdLogin'])){
 	//echo 'br/'.$result[0]['chk_username'];
 	if(empty($result)){
 		echo "<script type='text/javascript'>\n"; 
-		echo "alert('Login Failed ,Please check again you have enterd User Name or Password field');\n"; 
+		echo "alert('Login Failed ,Please check  you have enterd User Name or Password field');\n"; 
 		echo "</script>"; 
 	}
 	else{
