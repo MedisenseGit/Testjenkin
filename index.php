@@ -13,7 +13,7 @@ if(isset($_POST['cmdLogin'])){
 	//echo 'br/'.$result[0]['chk_username'];
 	if(empty($result)){
 		echo "<script type='text/javascript'>\n"; 
-		echo "alert('Login Failed ,Please check  User Name or Password field');\n"; 
+		echo "alert('Login Failed ,Please User Name or Password field');\n"; 
 		echo "</script>"; 
 	}
 	else{
@@ -53,7 +53,7 @@ if(isset($_POST['cmdLogin'])){
   <form method="post" name="loginForm" action="" onsubmit="return chkLogin()">
   	<div class="loginconatiner">	
 		<h2>LOGIN</h2>
-		<h3> Name :<input type="text" name="txtusername" class="txtfield fr"/></h3>
+		<h3>User Name :<input type="text" name="txtusername" class="txtfield fr"/></h3>
 		<h3>Password :<input type="password" name="txtpasswd" class="txtfield fr"/></h3>
 		<input type="submit" name="cmdLogin" value="SUBMIT" class="registerbtn" />
 	</div>
